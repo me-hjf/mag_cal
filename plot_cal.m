@@ -1,7 +1,6 @@
 # plot_cal: plots pre-/post- calibration data
 #
 # (c) 2020 David Goncalves
-# MIT License, see LICENSE.txt 
 
 function [A_1, b, t, std_err] = plot_cal(s)
 # Generates magnetic calibration parameters, 
