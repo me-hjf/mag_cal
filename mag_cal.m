@@ -2,7 +2,6 @@
 # a set of calibration constants, post-fit data, and measure of std. err.
 #
 # (c) 2020 David Goncalves
-# MIT License, see LICENSE.txt 
 
 function [A_1, b, t, std_err] = mag_cal(s, F=1)
     # get an ellipsoid fit to data
