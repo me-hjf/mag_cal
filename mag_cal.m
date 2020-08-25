@@ -1,3 +1,8 @@
+# mag_cal: function for transforming nx3 raw measurements Mx, My, Mz
+# a set of calibration constants, post-fit data, and measure of std. err.
+#
+# (c) 2020 David Goncalves
+
 function [A_1, b, t, std_err] = mag_cal(s, F=1)
     # get an ellipsoid fit to data
     [M, n, d] = ellipsoid_fit(s);
